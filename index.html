@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="styles.css" rel="stylesheet">
+        <title>Homepage</title>
+    </head>
+    <body>
+        <nav id="myNavBar" class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">
+            <img src="symbol.png" width="250" height="40" alt="" loading="lazy">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hatchback.html">Hatchback</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="sedan.html">Sedan</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="suv.html">SUV</a>
+              </li>
+            </ul>
+            <form action="https://www.google.com/search" method="get">
+              <input placeholder="Enter Keyword" name="q" type="text">
+              <input style="color:white; background-color: grey;" type="submit" value="Search in Google">        
+            </form>
+          </div>
+          <select class="alignright">
+            <option value="x-large">Large text</option>
+            <option value="large" selected>Medium text</option>
+            <option value="small">Small text</option>
+          </select>
+          <script>
+              document.querySelector('select').onchange = function() {
+                  document.querySelector('body').style.fontSize = this.value;
+              }
+          </script>
+
+        </nav>
+        <p></p>        
+        <div style="float: right; padding-right: 20px;">   
+          <button id="toggle-button" onclick="toggle()" type="button" class="btn btn-light"><img height="25px" src="dark_mode_toggle.JPG"></button>
+        </div>
+        <script src = "script.js"></script>
+        <p></p>
+        <h2>About Cars:</h2>
+        <p>A car is a wheeled motor vehicle used for transportation. Most definitions of cars say that they run primarily on roads, seat one to eight people, have four tires, and mainly transport people rather than goods. Cars came into global use during the 20th century, and developed economies depend on them</p>
+        <h2>Uses of Cars:</h2>
+        <ul>
+          <li>For over a hundred years, the private car has transformed modern society by providing independence and freedom of mobility.</li>
+          <li>Mobility is becoming more and more important due to ever-increasing distances between home, work, educational institutions, shopping and leisure facilities. Over 70% of journeys are made by car – be it private car, taxi or carsharing. </li>
+        </ul>
+        <img height="420" widht="720" style="float:right; padding: 20px" src="pillars.JPG">
+        <h2>Pillars in Cars:</h2>
+        <p>Pillars are the vertical or near vertical supports of a car's window area or greenhouse—designated respectively as the A, B, C or (in larger cars) D-pillar, moving from front to rear, in profile view.</p>
+        <p>The consistent alphabetical designation of a car's pillars provides a common reference for design discussion and critical communication. As an example, rescue teams employ pillar nomenclature to facilitate communication when cutting wrecked vehicles, as when using the jaws of life.</p>
+        <p>The B pillars are sometimes referred to as "posts" (two-door or four-door post sedan)</p>
+        <p>In the case of the B (or center) pillar on four-door sedans, the pillar is typically a closed steel structure welded at the bottom to the car's rocker panel and floorpan, as well as on the top to the roof rail or panel. This pillar provides structural support for the vehicle's roof panel and is designed for latching the front door and mounting the hinges for the rear doors.</p>
+        <p>In addition to the pillar nomenclature derived from viewing an automobile in profile, some older cars have a two-part windshield or a split rear window, with the two halves separated by a pillar. Posts for quarter windows (a smaller window typically between the front window and the windshield) are not considered a named pillar.</p>
+        <p></p>
+        <h2>Body types in Cars:</h2>
+        <p>Most cars are designed to carry multiple occupants, often with four or five seats. Cars with five seats typically seat two passengers in the front and three in the rear. Full-size cars and large sport utility vehicles can often carry six, seven, or more occupants depending on the arrangement of the seats. On the other hand, sports cars are most often designed with only two seats. The differing needs for passenger capacity and their luggage or cargo space has resulted in the availability of a large variety of body styles to meet individual consumer requirements that include, among others, the sedan/saloon, hatchback, station wagon/estate, and minivan.</p>
+        <iframe class="centre" width="720" height="420" src="https://www.youtube.com/embed/mNhwC-CDR-Y" frameborder="1" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <p class="courtesy">courtesy : youtube.com & motoring.com.au</p>
+      </body>
+</html>

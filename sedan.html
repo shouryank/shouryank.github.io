@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+        <link href="styles.css" rel="stylesheet">
+        <title>Sedans</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <a class="navbar-brand" href="#">
+            <img src="symbol.png" width="250" height="40" alt="" loading="lazy">
+          </a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="hatchback.html">Hatchback</a>
+              </li>
+              <li class="nav-item active">
+                <a class="nav-link" href="#">Sedan<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="suv.html">SUV</a>
+              </li>
+            </ul>
+            <form action="https://www.google.com/search" method="get">
+              <input placeholder="Enter Keyword" name="q" type="text">
+              <input style="color:white; background-color: grey;" type="submit" value="Search in Google">        
+            </form>
+          </div>
+          <select class="alignright">
+            <option value="large">Large text</option>
+            <option value="intitial" selected>Medium text</option>
+            <option value="small">Small text</option>
+          </select>
+          <script>
+              document.querySelector('select').onchange = function() {
+                  document.querySelector('body').style.fontSize = this.value;
+              }
+          </script>
+        </nav>
+        <p></p>        
+        <div style="float: right; padding-right: 20px;">   
+          <button id="toggle-button" onclick="toggle()" type="button" class="btn btn-light"><img height="25px" src="dark_mode_toggle.JPG"></button>
+        </div>
+        <script src = "script.js"></script>
+        <p></p>        
+        <img height="420" widht="720" style="float:left; padding: 20px" src="sedan.JPG">
+        <h2>About Sedans:</h2>
+        <ul>
+          <li>A sedan or saloon, is a passenger car in a three-box configuration with separate compartments for engine, passenger, and cargo.</li>
+          <li>Sedan's first recorded use as a name for a car body was in 1912. The name comes from a 17th-century development of a litter, the sedan chair, a one-person enclosed box with windows and carried by porters.</li>            
+          <li>Variations of the sedan style of body include: close-coupled sedan, club sedan, convertible sedan, fastback sedan, hardtop sedan, notchback sedan and sedanet/sedanette.</li>
+          <li>A B-pillar (between the front and rear windows) that supports the roof and two rows of seats</li>
+          <li>It is a car with a closed body (i.e. a fixed metal roof) with the engine, passengers, and cargo in separate compartments. This broad definition does not differentiate sedans from various other car body styles</li>
+          <li>a less steeply sloping roofline than a coupé, which results in increased headroom for rear passenger and a less sporting appearance</li>
+        </ul>
+        <p></p>
+        <h2>For whom is Sedans?</h2>
+        <p>
+          The main reason why people buy Sedans or you are currently looking into it as an option for you to buy are:
+          <ul>
+            <li>Medium on budget</li>
+            <li>Want maximum luxury for the money spent</li>
+            <li>Pretty easy to manuever in city traffic</li>
+            <li>For a family of 4</li>
+            <li>Inter city and long distance travel is very comfortable unnlike hatchbacks (pretty cramped up in hatchbacks)</li>
+            <li>Powerful engine to take care of anything</li>
+          </ul>
+        </p>
+        <h2>Things to be checked before buying:</h2>
+        <ul>
+          <li>Leg and head room : Check if your head is touching the roof or your knees touching the seat in front of you or the steering wheel or dashboard</li>
+          <li>Steerinng comfort : Check if the steering is light enough to be manueverable in the tight traffics and easy to take u turns (turning radius of the wheels)</li>
+          <li>Length of vehicle : Check if it fits in your parking space and check if you can get through on of those tight roads. Good for long distance travels (luxury) but city traffic? Do you really need a long vehicle to get yourself to office and back everyday? (go for hatchbacks instead)</li>
+          <li>Transmission (optional) : Go for amt or cvt or any other alternative if your budget permits. It will make your life way simpler compared to manual transmission.</li>
+          <li>Airbags : Make sure you get the maximum number of airbags to get yourself and your family a safe journey.</li>
+          <li>ABS (Anti-lock Breaking system) and ESP or ESC (Electronic stability program/control) : Helpful in times of wet roads and losing control of the vehicle/.</li>
+          <li>Rear camera (optional) : If you park everyday in a tight parking space this is going to be handy.</li>
+          <li>Infotainment system (optional) : To get yourself a peace of mind through the traffic and reach your destination peacefully you should go for it.</li>
+          <li>Clutch comfort (optional) : Check if the clutch is hard and the travel it takes to get the clutch to full</li>
+          <li>Sunroof (optional) : A long drive at the night or to feel more airy in thr cabin in day time or to get that breeze flow throught your hair, this is just the thinng you need.</li>
+        </ul>
+        <p>This is just some of the basics. Make sure to go through the features list once and check if it ticks all your needs or most of your needs.</p>
+        <h2>Some of the available options:</h2>
+        <ul>
+          <li>Hyundai Verna</li>
+          <li>Hyundai Aura</li>
+          <li>Maruti Suzuki Dzire</li>
+          <li>Maruti Suzuki Ciaz</li>
+          <li>Honda Amaze</li>
+          <li>Honda City</li>
+          <li>Honda Civic</li>
+          <li>Skoda Rapid</li>
+          <li>BMW 3,5,7 series</li>
+          <li>Audi A3,A4,A6,A8</li>
+          <li>Mercedes C,E,S class</li>
+          <li>Volkswagen Vento</li>
+        </ul>
+      </body>
+</html>
